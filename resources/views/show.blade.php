@@ -113,7 +113,7 @@
         // buat chart
         let ctx = document.getElementById('beasiswaDonutChart').getContext('2d');
         let myChart = new Chart(ctx, {
-            type: 'doughnut',
+            type: 'pie',
             data: {
                 labels: labels,
                 datasets: [{
